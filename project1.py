@@ -2,9 +2,6 @@ import json
 
 myplayer=json.load(open("nbaplayer.json"))
 
-print(type(myplayer))
-
-print( myplayer[0]['firstName'].lower()+' '+myplayer[0]['lastName'].lower())
 def PlayerSearch(name):
     i=1
     search=0
